@@ -14,7 +14,7 @@ public class MainApp {
 		ForTest ft = new ForTest();
 		WhileTest wt = new WhileTest();
 		ArrayTest at = new ArrayTest();
-		//이유알띠코리아로 바꿈
+		//이유알띠코리아로 바꿈바꿈123
 		
 		
 		
