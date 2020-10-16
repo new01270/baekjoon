@@ -14,7 +14,7 @@ public class MainApp {
 		ForTest ft = new ForTest();
 		WhileTest wt = new WhileTest();
 		ArrayTest at = new ArrayTest();
-		//깃허브한글테스트123
+		//깃허브56
 		
 		
 		
