@@ -7,7 +7,7 @@ import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class WhileTest {
-
+//ë°±ì¤€
 	public void WhileTest1() {
 		Scanner sc = new Scanner(System.in);
 
@@ -55,10 +55,10 @@ public class WhileTest {
 		sc.close();
 	}
 	/*
-	 * hasNextInt(), hasNext(), hasNextLine() Áß ¾Æ¹«°Å³ª ½áµµ ¹«¹æ -> ÀÔ·ÂÀÌ ¾Æ¿¹ µé¾î¿ÀÁö ¾Ê±â ¶§¹®¿¡ ¿¹¿Ü°¡
-	 * ¹ß»ýÇÏ´Â ÇüÅÂ´Â °°À½. ±×·¡µµ nextInt() ¸¦ ÅëÇØ Á¤¼ö¸¦ ÀÔ·Â¹Þ°íÀÚ ÇßÀ¸´Ï hasNextInt() ¸¦ ½áÁÖ´Â°Ô ´Ù¸¥ ÄÚµùÇÒ ¶§µµ
-	 * Âø¿À°¡ ¹ß»ýÇÏÁö ¾ÊÀ½. Âü°í·Î hasNextInt() ÀÇ °æ¿ì ÀÔ·Â°ªÀÌ Á¤¼öÀÏ°æ¿ì true¸¦ ¹ÝÈ¯ÇÏ¸ç Á¤¼ö°¡ ¾Æ´Ò°æ¿ì ¹Ù·Î ¿¹¿Ü¸¦ ´øÁö¸ç
-	 * ´õÀÌ»óÀÇ ÀÔ·ÂÀ» ¹ÞÁö ¾Ê°í hasNextInt()¿¡¼­ false¸¦ ¹ÝÈ¯ÇÏ¸é¼­ ¹Ýº¹¹®ÀÌ Á¾·á.
+	 * hasNextInt(), hasNext(), hasNextLine() ï¿½ï¿½ ï¿½Æ¹ï¿½ï¿½Å³ï¿½ ï¿½áµµ ï¿½ï¿½ï¿½ï¿½ -> ï¿½Ô·ï¿½ï¿½ï¿½ ï¿½Æ¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ü°ï¿½
+	 * ï¿½ß»ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½Â´ï¿½ ï¿½ï¿½ï¿½ï¿½. ï¿½×·ï¿½ï¿½ï¿½ nextInt() ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·Â¹Þ°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ hasNextInt() ï¿½ï¿½ ï¿½ï¿½ï¿½Ö´Â°ï¿½ ï¿½Ù¸ï¿½ ï¿½Úµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß»ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½. ï¿½ï¿½ï¿½ï¿½ï¿½ hasNextInt() ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Ô·Â°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ï¿½ trueï¿½ï¿½ ï¿½ï¿½È¯ï¿½Ï¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ´Ò°ï¿½ï¿½ ï¿½Ù·ï¿½ ï¿½ï¿½ï¿½Ü¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+	 * ï¿½ï¿½ï¿½Ì»ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ê°ï¿½ hasNextInt()ï¿½ï¿½ï¿½ï¿½ falseï¿½ï¿½ ï¿½ï¿½È¯ï¿½Ï¸é¼­ ï¿½Ýºï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	 */
 
 	public void WhileTest2sbu() throws IOException {
@@ -79,7 +79,7 @@ public class WhileTest {
 		}
 		System.out.println(sb);
 	}
-	// 10951¹ø bufferredreader·Î ½ÇÇà¾ÈµÊ. ÇØº¸±â
+	// 10951ï¿½ï¿½ bufferredreaderï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Èµï¿½. ï¿½Øºï¿½ï¿½ï¿½
 
 	public void WhileTest3() {
 		Scanner sc = new Scanner(System.in);
@@ -104,22 +104,22 @@ public class WhileTest {
 import java.util.*;
 
 // 1110
-// ´õÇÏ±â »çÀÌÅ¬ ´Ù¸¥ ¼Ò½º.
+// ï¿½ï¿½ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½ï¿½Å¬ ï¿½Ù¸ï¿½ ï¿½Ò½ï¿½.
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         // BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         String line = br.readLine();
-        String result = line; // ÃÖÃÊÀÇ °ª ÀúÀå
-        int n = 0; // ÃÑ È½¼ö
+        String result = line; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+        int n = 0; // ï¿½ï¿½ È½ï¿½ï¿½
 
-        // ÀÔ·Â °ªÀÌ 0ÀÌ¸é 1Ãâ·Â
+        // ï¿½Ô·ï¿½ ï¿½ï¿½ï¿½ï¿½ 0ï¿½Ì¸ï¿½ 1ï¿½ï¿½ï¿½
         if(line.equals("0")) {
             System.out.println(1);
             return;
         }
 
-        // ÀÔ·Â °ªÀÌ 10¹Ì¸¸ÀÇ °ªÀÌ¸é 0 Ãß°¡
+        // ï¿½Ô·ï¿½ ï¿½ï¿½ï¿½ï¿½ 10ï¿½Ì¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ì¸ï¿½ 0 ï¿½ß°ï¿½
         if(line.length() == 1) {
             line += "0";
             result += "0";
