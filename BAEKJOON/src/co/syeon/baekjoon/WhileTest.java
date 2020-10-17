@@ -7,7 +7,8 @@ import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class WhileTest {
-//깃테스트123 로컬에서 한글입력
+//로컬에서 한글입력
+//깃허브에서 한글입력
 	public void WhileTest1() {
 		Scanner sc = new Scanner(System.in);
 
@@ -107,7 +108,7 @@ public class Main {
         // BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         String line = br.readLine();
         String result = line; 
-        int n = 0; // �� Ƚ��
+        int n = 0;
 
         
         if(line.equals("0")) {
