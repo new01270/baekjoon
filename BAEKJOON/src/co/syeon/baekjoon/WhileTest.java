@@ -7,7 +7,7 @@ import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class WhileTest {
-//백준
+//깃테스트123
 	public void WhileTest1() {
 		Scanner sc = new Scanner(System.in);
 
