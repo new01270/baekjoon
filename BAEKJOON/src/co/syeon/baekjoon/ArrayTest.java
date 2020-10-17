@@ -5,9 +5,9 @@ import java.util.Scanner;
 
 public class ArrayTest {
 	/*
-	* ¾Ë°í¸®ÁòÀ» ±¸¼ºÇÒ ¶§ ½Ã°£º¹Àâµµ¿Í Æ¯Á¤ ¸Þ¼Òµå, »ý¼ºÀÚ µî ´Ù¾çÇÑ ¿ä¼ºµéÀ» °í·ÁÇÏ¿© ÃÖ¼±ÀÇ ½Ã°£º¹Àâµµ¸¦ Ã£¾Æº¸´Â °ÍÀÌ Áß¿ä.
-	* Áï½Ã ºñ±³ÇÏ´Â °æ¿ì ½Ã°£º¹Àâµµ°¡ O(N)
-	* ¹è¿­À» »ç¿ëÇÏ¸é ÃÖ¾ÇÀÇ °æ¿ì ½Ã°£º¹Àâµµ°¡ O(N^2) 
+	* ì•Œê³ ë¦¬ì¦˜ì„ êµ¬ì„±í•  ë•Œ ì‹œê°„ë³µìž¡ë„ì™€ íŠ¹ì • ë©”ì†Œë“œ, ìƒì„±ìž ë“± ë‹¤ì–‘í•œ ìš”ì„±ë“¤ì„ ê³ ë ¤í•˜ì—¬ ìµœì„ ì˜ ì‹œê°„ë³µìž¡ë„ë¥¼ ì°¾ì•„ë³´ëŠ” ê²ƒì´ ì¤‘ìš”.
+	* ì¦‰ì‹œ ë¹„êµí•˜ëŠ” ê²½ìš° ì‹œê°„ë³µìž¡ë„ê°€ O(N)
+	* ë°°ì—´ì„ ì‚¬ìš©í•˜ë©´ ìµœì•…ì˜ ê²½ìš° ì‹œê°„ë³µìž¡ë„ê°€ O(N^2) 
 	*/
 	
 	public void ArrayTest1() {
@@ -18,7 +18,7 @@ public class ArrayTest {
 		/*
 		 * int N = sc.nextInt(); 
 		 * int[] arr = new int[N];
-		 * Arrays.sort() : ¹è¿­¿¡ ÀúÀåµÈ ¿ø¼Ò °ªÀ» ¿À¸§Â÷¼øÀ¸·Î Á¤·ÄÇØÁÖ´Â ¸Þ¼Òµå.
+		 * Arrays.sort() : ï¿½è¿­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ ï¿½Þ¼Òµï¿½.
 		 */
 		 
 		for (int i = 0; i < n; i++) {
