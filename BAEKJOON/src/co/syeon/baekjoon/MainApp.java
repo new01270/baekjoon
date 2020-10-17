@@ -14,9 +14,20 @@ public class MainApp {
 		ForTest ft = new ForTest();
 		WhileTest wt = new WhileTest();
 		ArrayTest at = new ArrayTest();
+		HelloWorld hw = new HelloWorld();
 		
 		
-		
+//		hw.plusScan();
+//		hw.plusBu();
+//		hw.plusSb();
+//		hw.minusSc();
+//		hw.minusBu();
+//		hw.minusSb();
+//		hw.mul();
+//		hw.div();
+//		hw.operation();
+//		hw.operationBu();
+		hw.operationSu();
 		
 		
 //		ft.forTest2();	//10950
@@ -58,7 +69,7 @@ public class MainApp {
 		
 		
 		
-		at.ArrayTest1();
+//		at.ArrayTest1();
 		
 		
 		
