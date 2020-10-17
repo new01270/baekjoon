@@ -14,7 +14,7 @@ public class MainApp {
 		ForTest ft = new ForTest();
 		WhileTest wt = new WhileTest();
 		ArrayTest at = new ArrayTest();
-		//ÀÌÀ¯¾Ë¶ìÄÚ¸®¾Æ·Î ¹Ù²Ş¹Ù²Ş123
+		
 		
 		
 		

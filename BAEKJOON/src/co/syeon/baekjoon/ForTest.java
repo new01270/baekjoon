@@ -152,7 +152,7 @@ public class ForTest {
 			int b = sc.nextInt();
 //			System.out.println("Case #" + i + ": " + a + " + " + b + " = " + (a + b));
 			System.out.printf("Case #%d: %d + %d = %d \n", i, a, b, (a + b));
-			// ÄÄÆÄÀÏ ¼Óµµ: println < printf
+			// ì»´íŒŒì¼ ì†ë„: println < printf
 		}
 	}
 
@@ -335,16 +335,16 @@ public class ForTest {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
 
-		StringTokenizer st = new StringTokenizer(br.readLine(), " "); // °ø¹é¿ªÇÒ·Î °´Ã¼»ı¼º.
+		StringTokenizer st = new StringTokenizer(br.readLine(), " "); // ê³µë°±ì—­í• ë¡œ ê°ì²´ìƒì„±.
 
 		int n = Integer.parseInt(st.nextToken());
-		st = new StringTokenizer(br.readLine()); // ¿£ÅÍ¿ªÇÒ.
+		st = new StringTokenizer(br.readLine()); // ì—”í„°ì—­í• .
 
 		int x = Integer.parseInt(st.nextToken());
-		st = new StringTokenizer(br.readLine()); // ¿£ÅÍ¿ªÇÒ.
+		st = new StringTokenizer(br.readLine()); // ì—”í„°ì—­í• .
 
 		for (int i = 0; i < n; i++) {
-			int a = Integer.parseInt(st.nextToken()); // °ø¹éÀ¸·Î ¸¸µé¾îÁø 'st.'
+			int a = Integer.parseInt(st.nextToken());  // ê³µë°±ìœ¼ë¡œ ë§Œë“¤ì–´ì§„ 'st.'
 
 			if (a < x)
 				sb.append(a).append(" ");

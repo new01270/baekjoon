@@ -18,7 +18,6 @@ public class ArrayTest {
 		/*
 		 * int N = sc.nextInt(); 
 		 * int[] arr = new int[N];
-		 * Arrays.sort() : �迭�� ����� ���� ���� ������������ �������ִ� �޼ҵ�.
 		 */
 		 
 		for (int i = 0; i < n; i++) {

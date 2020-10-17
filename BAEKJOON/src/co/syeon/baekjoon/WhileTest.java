@@ -7,7 +7,7 @@ import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class WhileTest {
-//깃테스트123
+//깃테스트123 로컬에서 한글입력
 	public void WhileTest1() {
 		Scanner sc = new Scanner(System.in);
 
@@ -55,11 +55,8 @@ public class WhileTest {
 		sc.close();
 	}
 	/*
-	 * hasNextInt(), hasNext(), hasNextLine() �� �ƹ��ų� �ᵵ ���� -> �Է��� �ƿ� ������ �ʱ� ������ ���ܰ�
-	 * �߻��ϴ� ���´� ����. �׷��� nextInt() �� ���� ������ �Է¹ް��� ������ hasNextInt() �� ���ִ°� �ٸ� �ڵ��� ����
-	 * ������ �߻����� ����. ����� hasNextInt() �� ��� �Է°��� �����ϰ�� true�� ��ȯ�ϸ� ������ �ƴҰ�� �ٷ� ���ܸ� ������
-	 * ���̻��� �Է��� ���� �ʰ� hasNextInt()���� false�� ��ȯ�ϸ鼭 �ݺ����� ����.
-	 */
+	 * hasNextInt(), hasNext(), hasNextLine()
+	 * */
 
 	public void WhileTest2sbu() throws IOException {
 
@@ -79,7 +76,7 @@ public class WhileTest {
 		}
 		System.out.println(sb);
 	}
-	// 10951�� bufferredreader�� ����ȵ�. �غ���
+	// 1095
 
 	public void WhileTest3() {
 		Scanner sc = new Scanner(System.in);
@@ -104,22 +101,21 @@ public class WhileTest {
 import java.util.*;
 
 // 1110
-// ���ϱ� ����Ŭ �ٸ� �ҽ�.
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         // BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         String line = br.readLine();
-        String result = line; // ������ �� ����
+        String result = line; 
         int n = 0; // �� Ƚ��
 
-        // �Է� ���� 0�̸� 1���
+        
         if(line.equals("0")) {
             System.out.println(1);
             return;
         }
 
-        // �Է� ���� 10�̸��� ���̸� 0 �߰�
+        
         if(line.length() == 1) {
             line += "0";
             result += "0";
