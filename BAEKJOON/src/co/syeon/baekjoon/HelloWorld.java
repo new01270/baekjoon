@@ -105,13 +105,24 @@ public class HelloWorld {
 	public void div() {
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
-		int b = sc.nextInt(); 
-		
+		int b = sc.nextInt();
+
 //		double a = sc.nextInt();
 //		double b = sc.nextInt();
 //		System.out.println(a / b);
-		
+
 		System.out.println((double) a / b);
+	}
+	
+	public void divBu() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		 StringTokenizer st = new StringTokenizer(br.readLine());
+		 
+		 double a = Double.parseDouble(st.nextToken());
+		 double b = Double.parseDouble(st.nextToken());
+		 
+		 System.out.println(a/b);
+		 
 	}
 
 	/*
@@ -144,24 +155,162 @@ public class HelloWorld {
 		bw.write((a * b) + "\n");
 		bw.write((a / b) + "\n");
 		bw.write((a % b) + "\n");
-		
+
 		bw.flush();
 		br.close();
 		bw.close();
 
 	}
-	
+
 	public void operationSu() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
 		StringTokenizer st = new StringTokenizer(br.readLine());
-		
+
 		int a = Integer.parseInt(st.nextToken());
-		int b =  Integer.parseInt(st.nextToken());
+		int b = Integer.parseInt(st.nextToken());
+
+		sb.append(a + b).append("\n").append(a - b).append("\n").append(a * b).append("\n").append(a / b).append("\n")
+				.append(a % b);
+
+		System.out.println(sb);
+	}
+
+	// 10430
+	public void remain() {
+		Scanner sc = new Scanner(System.in);
+
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		int c = sc.nextInt();
+
+		System.out.println((a + b) % c);
+		System.out.println(((a % c) + (b % c)) % c);
+		System.out.println((a * b) % c);
+		System.out.println(((a % c) * (b % c)) % c);
+	}
+
+	public void remainBu() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+
+		int a = Integer.parseInt(st.nextToken());
+		int b = Integer.parseInt(st.nextToken());
+		int c = Integer.parseInt(st.nextToken());
+
+		System.out.println((a + b) % c);
+		System.out.println(((a % c) + (b % c)) % c);
+		System.out.println((a * b) % c);
+		System.out.println(((a % c) * (b % c)) % c);
+	}
+
+	public void remainSpt() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+		String str[] = br.readLine().split(" ");
+
+		int a = Integer.parseInt(str[0]);
+		int b = Integer.parseInt(str[1]);
+		int c = Integer.parseInt(str[2]);
+
+		System.out.println((a + b) % c);
+		System.out.println(((a % c) + (b % c)) % c);
+		System.out.println((a * b) % c);
+		System.out.println(((a % c) * (b % c)) % c);
+	}
+
+	/*
+	 * StringTokenizer < Split 실행속도 빠르기
+	 */
+
+	public void remainSb() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringBuilder sb = new StringBuilder();
+
+		StringTokenizer st = new StringTokenizer(br.readLine());
+
+		int a = Integer.parseInt(st.nextToken());
+		int b = Integer.parseInt(st.nextToken());
+		int c = Integer.parseInt(st.nextToken());
+
+		sb.append((a + b) % c).append("\n");
+		sb.append((a % c + b % c) % c).append("\n");
+		sb.append((a * b) % c).append("\n");
+		sb.append((a % c * b % c) % c);
+
+		System.out.println(sb);
+	}
+
+	public void remainBw() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+
+		StringTokenizer st = new StringTokenizer(br.readLine());
+
+		int a = Integer.parseInt(st.nextToken());
+		int b = Integer.parseInt(st.nextToken());
+		int c = Integer.parseInt(st.nextToken());
+
+		bw.write(((a + b) % c) + "\n");
+		bw.write(((a % c + b % c) % c) + "\n");
+		bw.write(((a * b) % c) + "\n");
+		bw.write(((a % c * b % c) % c) + "\n");
 		
-		sb.append(a+b).append("\n").append(a-b).append("\n").append(a*b).append("\n").append(a/b).append("\n").append(a%b);
+		bw.flush();
+		br.close();
+		bw.close();
+	}
+	
+	//2588
+	public void mul3() {
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		
+		System.out.println(a*(b%10));
+		System.out.println(a*((b%100)/10));
+		System.out.println(a*(b/100));
+		System.out.println(a*b);
+	}
+	
+	public void mul3Sb() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		int a = Integer.parseInt(br.readLine());
+		int b = Integer.parseInt(br.readLine());
+		
+		StringBuilder sb = new StringBuilder();
+		
+		
+		sb.append(a*(b%10)).append("\n");
+		sb.append(a*((b%100)/10)).append("\n");
+		sb.append(a*(b/100)).append("\n");
+		sb.append(a*b);
 		
 		System.out.println(sb);
 	}
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }// end

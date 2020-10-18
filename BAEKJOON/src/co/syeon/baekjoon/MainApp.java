@@ -19,15 +19,28 @@ public class MainApp {
 		
 //		hw.plusScan();
 //		hw.plusBu();
-//		hw.plusSb();
+//		hw.plusSb();	1000
 //		hw.minusSc();
-//		hw.minusBu();
-//		hw.minusSb();
-//		hw.mul();
-//		hw.div();
+//		hw.minusBu();	
+//		hw.minusSb();	//1001
+//		hw.mul();	//10998
+//		hw.div();	//1008
 //		hw.operation();
 //		hw.operationBu();
-		hw.operationSu();
+//		hw.operationSu();	//10869
+//		hw.remain();	//10430		
+//		hw.remainBu();
+//		hw.remainSpt();
+//		hw.remainSb();
+//		hw.remainBw();
+//		hw.mul3();
+		hw.mul3Sb();
+		
+		
+		
+		
+		
+		
 		
 		
 //		ft.forTest2();	//10950
