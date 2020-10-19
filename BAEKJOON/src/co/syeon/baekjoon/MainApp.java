@@ -15,6 +15,7 @@ public class MainApp {
 		WhileTest wt = new WhileTest();
 		ArrayTest at = new ArrayTest();
 		HelloWorld hw = new HelloWorld();
+		IfTest it = new IfTest();
 		
 		
 //		hw.plusScan();
@@ -34,10 +35,19 @@ public class MainApp {
 //		hw.remainSb();
 //		hw.remainBw();
 //		hw.mul3();
-		hw.mul3Sb();
+//		hw.mul3Sb();
 		
 		
 		
+		
+		
+//		it.ifTest();	//1330
+//		it.ifTest2();
+//		it.ifTest3();	//9498
+//		it.ifTest3wh();
+//		it.ifTest4();
+//		it.ifTest5();
+		it.ifTest5_2();
 		
 		
 		
