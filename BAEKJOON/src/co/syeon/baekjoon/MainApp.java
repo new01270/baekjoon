@@ -16,6 +16,7 @@ public class MainApp {
 		ArrayTest at = new ArrayTest();
 		HelloWorld hw = new HelloWorld();
 		IfTest it = new IfTest();
+		ForTestRe ftre = new ForTestRe();
 		
 		
 //		hw.plusScan();
@@ -47,7 +48,7 @@ public class MainApp {
 //		it.ifTest3wh();
 //		it.ifTest4();
 //		it.ifTest5();
-		it.ifTest5_2();
+//		it.ifTest5_2();
 		
 		
 		
@@ -76,6 +77,15 @@ public class MainApp {
 //		ft.forTest11_2();
 //		ft.forTest11sbu();
 		
+		
+//		ftre.forRe();
+//		ftre.forRe2();
+//		ftre.forRe2bu();
+//		ftre.forRe3();
+//		ftre.forRe4();
+//		ftre.forRe5();
+//		ftre.forRe5bu();
+		ftre.forRe6();
 		
 		
 		
