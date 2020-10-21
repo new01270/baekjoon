@@ -2,6 +2,8 @@ package co.syeon.baekjoon;
 
 import java.util.Scanner;
 
+import javax.swing.plaf.synth.SynthOptionPaneUI;
+
 public class IfTest {
 
 	// 1330
@@ -118,4 +120,19 @@ public class IfTest {
 		}
 	}
 
+	public void ifTest6() {
+		Scanner sc = new Scanner(System.in);
+		int h = sc.nextInt();
+		int m = sc.nextInt();
+
+		if (h == 0) {
+			if (m >= 45) {
+				System.out.println(h + " " + (m - 45));
+			} else
+				System.out.println((h + 23) + " " + (m + 15));
+		} else if (m >= 45) {
+			System.out.println(h + " " + (m - 45));
+		} else
+			System.out.println((h - 1) + " " + (m + 15));
+	}
 }// end

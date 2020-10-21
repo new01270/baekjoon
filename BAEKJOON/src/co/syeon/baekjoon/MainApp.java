@@ -17,7 +17,7 @@ public class MainApp {
 		HelloWorld hw = new HelloWorld();
 		IfTest it = new IfTest();
 		ForTestRe ftre = new ForTestRe();
-		
+		WhileRe whre = new WhileRe();
 		
 //		hw.plusScan();
 //		hw.plusBu();
@@ -49,6 +49,8 @@ public class MainApp {
 //		it.ifTest4();
 //		it.ifTest5();
 //		it.ifTest5_2();
+//		it.ifTest6();
+		
 		
 		
 		
@@ -85,9 +87,11 @@ public class MainApp {
 //		ftre.forRe4();
 //		ftre.forRe5();
 //		ftre.forRe5bu();
-		ftre.forRe6();
-		
-		
+//		ftre.forRe6();
+//		ftre.forRe9();
+//		ftre.forRe9bu();
+//		ftre.forRe10( );
+//		ftre.forRe10Bu();
 		
 		
 		
@@ -96,6 +100,8 @@ public class MainApp {
 //		wt.WhileTest2();	//10951
 //		wt.WhileTest2sbu();
 //		wt.WhileTest3();	//1110
+		
+		whre.wRe();
 		
 		
 		
